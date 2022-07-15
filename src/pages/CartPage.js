@@ -28,9 +28,6 @@ const CartPage = () => {
             </Wrapper>
         </main>
     )
-    return (
-        <div>CartPage</div>
-    )
 }
 
 const Wrapper = styled.main`

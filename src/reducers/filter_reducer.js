@@ -102,6 +102,8 @@ const filter_reducer = (state, action) => {
                 tempAllProducts = tempAllProducts.filter(product => product.shipping === true)
             }
             return { ...state, filtered_products: tempAllProducts }
+        default:
+            return { ...state }
     }
 }
 
